@@ -20,7 +20,6 @@ This project is a **Smart Email Assistant** that integrates AI functionality int
 ### 1. Clone the Repository
 ```bash
 git clone <repository-url>
-cd smart-email-assistant
 ```
 
 ---
@@ -65,7 +64,7 @@ cd smart-email-assistant
 
 3. Run the React app:
    ```bash
-   npm start
+   npm run dev
    ```
 
 ---
@@ -88,7 +87,7 @@ cd smart-email-assistant
 ### 5. Accessing the Application
 
 - The back-end will be available at the configured port (default: `http://localhost:8080`).
-- The front-end will run at `http://localhost:3000`.
+- The front-end will run at `http://localhost:5173`.
 - Use the browser extension to access the AI reply feature.
 
 ---
@@ -104,20 +103,12 @@ cd smart-email-assistant
 ## Screenshots
 
 ### Front-End
-![Front-End Screenshot](./screenshots/frontend.png)
+![WhatsApp Image 2025-01-28 at 19 53 06_f392c4ee](https://github.com/user-attachments/assets/9cb605bb-3f38-4f7c-8dba-91e6fde42b1d)
+
 
 ### Extension
-![Extension Screenshot](./screenshots/extension.png)
+![WhatsApp Image 2025-01-28 at 19 58 38_7f1169b3](https://github.com/user-attachments/assets/93dc2485-13c3-48f2-a9ba-c99c2cb64cc3)
 
 ---
 
-## Folder Structure
-
-```plaintext
-smart-email-assistant/
-├── backend/          # Spring Boot application
-├── frontend/         # React front-end application
-├── extension/        # Browser extension files
-└── README.md         # Project documentation
-```
 
